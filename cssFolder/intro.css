@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Canva Sans', sans-serif;
+    overflow-x: hidden;
+    height: 50vh; 
+  }
+  
+  header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    border-bottom: 3px solid #b1d4e0;
+  }
+  
+  
+      nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      margin-left: 25px;
+      }
+  
+      nav ul li {
+      display: inline;
+      margin-right: 20px;
+      }
+  
+      nav ul li:last-child {
+      margin-right: 0;
+      }
+  
+      nav ul li a {
+      text-decoration: none;
+      color: #2e266d;
+      font-size: 19px;
+      transition: color 0.3s ease;
+      }
+  
+      nav ul li a:hover {
+      color: violet;
+      }
+
+main {
+    margin-top: 50px;
+    max-width: 100%;
+    width: 100%;
+    padding: 30px;
+    margin-left: 60px;
+    background-color: #b1d4e0;
+    border-radius: 2px;
+    display: flex;
+}
+
+main .head h1 {
+    font-size: 40px;
+    color: #2e266d;
+    margin-bottom: 30px;
+}
+
+.content1 {
+    width: 45%;
+}
+
+.content1 .paragraph p{
+    text-align: left;
+    font-size: 22px;
+    color: #2e266d;
+}
+
+.content2 {
+    width: 45%;
+    margin-left: 100px;
+}
+
+.image-content .img1 {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    position: relative;
+    top: 30px;
+  }
+  
+  .image-content .img2 {
+    width: 250px;
+    height: 350px;
+    border-radius: 25px;
+    margin-left: 50px;
+    position: relative; 
+    top: 120px; 
+  }
+
+.image-content img {
+    transition: transform 0.3s ease; 
+    cursor: pointer; 
+}
+
+.image-content img:hover{
+    transform: scale(1.1);
+}
